@@ -3,15 +3,15 @@
 #include "iostream"
 using namespace std;
 static int counter = 0;
-void function()
+void _function()
 {
     counter++;
-    cout << "specified function called." << endl;
+    cout << "specified _function called." << endl;
 }
 
 int main()
 {
-    Interval().run(70, function, 1000);
+    Interval().run(70, _function, 1000);
     cout << "DONE: " << counter << endl;
     return 0;
 }
