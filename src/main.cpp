@@ -3,9 +3,12 @@
 #include "iostream"
 using namespace std;
 static int counter = 0;
-void _function()
+
+// demonstrate parametered callback function usage.
+void _function(int x, int y)
 {
     counter++;
+
     cout << "specified _function called." << endl;
 }
 
